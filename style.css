@@ -557,7 +557,7 @@ textarea.form-control {
     height: 12px;
     border-radius: 100px;
     /* dot color */
-    background: #faacee;
+    background: #4ae7ff;
 }
 
 /* music */
@@ -773,13 +773,13 @@ textarea.form-control {
 
 .header-main-menu li a:hover i {
     /* Hover Color */
-    color: #faacee;
+    color: #4ae7ff;
 }
 
 .header-main-menu li a:hover,
 .header-main-menu li a.active {
     /* Selected Color*/
-    color: #faacee;
+    color: #4ae7ff;
 }
 
 .header-main-menu li a span {
@@ -788,7 +788,7 @@ textarea.form-control {
     top: 0;
     background: #404a46;
     /* text color */
-    color: #faacee;
+    color: #4ae7ff;
     width: 100px;
     height: 100%;
     line-height: 45px;
@@ -866,7 +866,7 @@ textarea.form-control {
 }
 
 .section-title h2 {
-    color: #faacee;
+    color: #4ae7ff;
     text-transform: uppercase;
     margin-bottom: 0;
     line-height: 1.125;
@@ -913,7 +913,7 @@ textarea.form-control {
 }
 
 .section-home .intro h1 {
-    color: #faacee;
+    color: #4ae7ff;
     font-size: 80px;
     margin: 30px 0;
     text-transform: capitalize;
@@ -988,12 +988,12 @@ textarea.form-control {
     border-radius: 50%;
     float: left;
     margin-right: 30px;
-    background: #faacee;
+    background: #4ae7ff;
 }
 
 .about-content .name {
     /* name in intro*/
-    color: #faacee;
+    color: #4ae7ff;
     font-weight: 500;
 }
 .about-content h4 {
@@ -1048,7 +1048,7 @@ textarea.form-control {
 }
 
 .services-item:hover h5 {
-    color: #faacee;
+    color: #4ae7ff;
 }
 
 .services-item h5 {
@@ -1370,20 +1370,20 @@ textarea.form-control {
     border-radius: 50%;
     z-index: 9;
     background: #ffffff;
-    box-shadow: 0 0 0 3px #faacee;
+    box-shadow: 0 0 0 3px #4ae7ff;
     transition: background 0.3s ease-in-out;
 }
 .timeline-list p {
     color: #ffffff;
 }
 .timeline-list h5 {
-    color: #faacee;
+    color: #4ae7ff;
 }
 .timeline-list li:hover:before {
-    background: #faacee;
+    background: #4ae7ff;
 }
 .timeline-list li:hover:before {
-    background: #faacee;
+    background: #4ae7ff;
 }
 
 .timeline-list li span {
@@ -1481,7 +1481,7 @@ textarea.form-control {
 }
 
 .lang-item .lang-rating li.active i {
-    background: #faacee;
+    background: #4a9cba;
 }
 
 /* 09 - portfolio */
@@ -1503,7 +1503,7 @@ textarea.form-control {
     line-height: 36px;
     font-size: 16px;
     font-weight: 400;
-    color: #faacee;
+    color: #4ae7ff;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
@@ -1514,7 +1514,7 @@ textarea.form-control {
 
 #portfolio-flters li:hover,
 #portfolio-flters li.filter-active {
-    background: #faacee;
+    background: #4ae7ff;
     color: #282e2b;
 }
 
@@ -1591,7 +1591,7 @@ textarea.form-control {
     text-align: center;
     width: 40px;
     height: 40px;
-    background: #faacee;
+    background: #4ae7ff;
     color: #646665;
     border-radius: 50%;
     margin: 0px 5px 10px 5px;
@@ -1606,7 +1606,7 @@ textarea.form-control {
 .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
 .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
     background: #646665;
-    color: #faacee;
+    color: #4ae7ff;
 }
 
 .portfolio-item .portfolio-wrap:hover {
@@ -2223,7 +2223,7 @@ textarea.form-control {
 }
 
 .contact-information a{
-  color: #faacee;
+  color: #4ae7ff;
 }
 .contact-information ul li span span {
     display: inline-block;
@@ -2523,14 +2523,14 @@ textarea.form-control {
     .mobile-site-title {
         display: inline-block;
         float: left;
-        color: #faacee;
+        color: #4ae7ff;
         font-size: 21px;
         font-weight: 400;
         line-height: 48px;
     }
 
     .menu-toggle i {
-        color: #faacee;
+        color: #4ae7ff;
         font-size: 32px;
         line-height: 50px;
     }
