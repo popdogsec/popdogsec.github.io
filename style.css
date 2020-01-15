@@ -2222,30 +2222,13 @@ textarea.form-control {
     vertical-align: middle;
 }
 
+.contact-information a{
+  color: #faacee;
+}
 .contact-information ul li span span {
     display: inline-block;
 }
 
-.contact-information .pe-7s-mail{
-    color: #faacee;
-    background-color: #646665;
-}
-.contact-information .pe-7s-mail{
-    color: #faacee;
-    background-color: #646665;
-}
-.contact-information .pe-7s-mail{
-    color: #faacee;
-    background-color: #646665;
-}
-.contact-information .pe-7s-mail{
-    color: #faacee;
-    background-color: #646665;
-}
-.contact-information .pe-7s-mail{
-    color: #faacee;
-    background-color: #646665;
-}
 
 /* - contact form */
 .contact-form #sendmessage {
