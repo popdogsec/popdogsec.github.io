@@ -1,185 +1,636 @@
-<!DOCTYPE HTML>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Ben Schafer</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="shortcut icon" type="image/x-icon" href="myfavicon.ico">
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Basma Resume / CV Template">
+    <meta name="keywords" content="personal, html5, vTemplate, resposnive, retina, resume, jquery, css3, bootstrap, portfolio">
+    <meta name="author" content="themearabia.net">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Benjamin Schafer</title>
+    <!-- main style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <!-- end Preloader -->
+    <!-- wrapper page -->
+    <div id="wrapper">
+        <!-- header -->
+        <header class="header">
+            <!-- profile picture -->
+            <div class="profile-picture">
+                <!-- profile avatar -->
+                <div class="profile-avatar">
+                    <img src="images/headshot.jpg" alt="Benjamin Schafer" />
+                    <span class="dot"></span>
+                </div>
+                <!-- end profile avatar -->
+            </div>
+            <!-- end profile picture -->
+            <!-- header content -->
+            <div class="header-content">
+                <!-- site navigation -->
+                <div class="site-nav">
+                    <!-- main menu -->
+                    <ul class="header-main-menu" id="header-main-menu">
+                        <li><a class="active" href="#home"><i class="lnr lnr-home"></i><span>Home</span></a></li>
+                        <li><a href="#about-me"><i class="lnr lnr-user"></i><span>About Me</span></a></li>
+                        <li><a href="#resume"><i class="lnr lnr-license"></i><span>Resume</span></a></li>
+                        <li><a href="#portfolio"><i class="lnr lnr-book"></i><span>Blog</span></a></li>
+                        <li><a href="#contact"><i class="lnr lnr-envelope"></i><span>Contact</span></a></li>
+                    </ul>
+                    <!-- end main menu -->
+                </div>
+                <!-- end site navigation -->
+            </div>
+            <!-- end header content -->
+        </header>
+        <!-- end header -->
+        <!-- mobile header -->
+        <div class="mobile-header mobile-visible">
+            <div class="mobile-logo-container">
+                <div class="mobile-header-image">
+                    <img src="images/avatar.jpg" alt="">
+                </div>
+                <div class="mobile-site-title">Benjamin Schafer</div>
+            </div>
+            <a class="menu-toggle mobile-visible"><i class="lnr lnr-menu"></i></a>
+        </div>
+        <!-- end mobile header -->
+        <!-- main content pages -->
+        <div id="main" class="content-pages">
+            <!-- section pages -->
+            <div class="section-pages">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+                <!-- home -->
+                <section id="home" class="section-page section-home animated active">
+                    <div class="overlay">
+                        <!-- container -->
+                        <div class="container">
+                            <div class="intro display-table">
+                                <div class="display-table-cell">
+                                    <h3>Hello, My name is</h3>
+                                    <h1>Benjamin Schafer</h1>
+                                    <p>Information Security Professional</p>
+                                        <span class="typed"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end container -->
+                    </div>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Ben Schafer</a></h1>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+                </section>
+                <!-- end home -->
 
-				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">About Me</a></li>
-								<li><a href="elements.html">Projects</a></li>
-								<li><a href="#">Lock Picking</a></li>
-								<li><a href="#">Blog</a></li>
-								<li><a href="#">Contact Me</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
+                <!-- about me -->
+                <section id="about-me" class="section-page animated">
+                    <!-- container -->
+                    <div class="container">
+                        <!-- page inner -->
+                        <div class="section-inner">
+                            <!-- section title -->
+                            <div class="section-title">
+                                <h2>About Me</h2>
+                                <p>A Little Insight Into Me</p>
+                                <div class="divider"></div>
+                            </div>
+                            <!-- end section title -->
+                            <!-- about content -->
+                            <div class="about-content mb-60">
+                                <img src="images/headshot.jpg" class="img-circle" alt="">
+                                <b><h4>Who Am I</h4></b>
+                                <p>My name is <span class="name">Benjamin Schafer</span> I am a college student majoring in Cybersecurity with an anticipated graduation date of May 2020. Physical and information security is my passion. I am always looking to learn something new to stay up to date in this ever changing field. This website is a way to share the projects and experiences I have with the rest of the Information Security community.</p>
+                            </div>
+                            <!-- end about content -->
+                            <!-- services -->
+                            <div class="services mb-30">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <!-- head title -->
+                                        <div class="head-title">
+                                            <br></br>
+                                            <h3>What I'm Doing</h3>
+                                        </div>
+                                        <!-- end head title -->
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <!-- services-item item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="services-item">
+                                            <div class="icon"><img src="images/svg/web-design.svg" alt="" /></div>
+                                            <h5>?</h5>
+                                            <p>The most modern and high-quality design made at a professional level.</p>
+                                        </div>
+                                    </div>
+                                    <!-- end services-item item -->
+                                    <!-- services-item item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="services-item">
+                                            <div class="icon"><img src="images/svg/web-development.svg" alt="" /></div>
+                                            <h5>Python Development</h5>
+                                            <p>I use the Python language to automate tasks and develop exploits.</p>
+                                        </div>
+                                    </div>
+                                    <!-- end services-item item -->
+                                    <!-- services-item item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="services-item">
+                                            <div class="icon"><img src="images/svg/app-design.svg" alt="" /></div>
+                                            <h5>?</h5>
+                                            <p>The most modern and high-quality design made at a professional level.</p>
+                                        </div>
+                                    </div>
+                                    <!-- end services-item item -->
+                                    <!-- services-item item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="services-item">
+                                            <div class="icon"><img src="images/svg/app-development.svg" alt="" /></div>
+                                            <h5>?</h5>
+                                            <p>Professional development of applications for iOS and Android.</p>
+                                        </div>
+                                    </div>
+                                    <!-- end services-item item -->
+                                    <!-- services-item item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="services-item">
+                                            <div class="icon"><img src="images/svg/photograph.svg" alt="" /></div>
+                                            <h5>Capture The Flag Challenges</h5>
+                                            <p>I participate in CTF challenges on hackthebox to improve my pentesting skills.</p>
+                                        </div>
+                                    </div>
+                                    <!-- end services-item item -->
+                                    <!-- services-item item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="services-item">
+                                            <div class="icon"><img src="images/svg/voice-recording.svg" alt="" /></div>
+                                            <h5>Locksport</h5>
+                                            <p>I participate in the Locksport community to learn more on physical security. </p>
+                                        </div>
+                                    </div>
+                                    <!-- end services-item item -->
+                                </div>
+                                <br></br>
+                                <br></br>
+                                <p class="aligncenter" ><img src="https://www.hackthebox.eu/badge/image/242233" alt="Hack The Box"></p>
 
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<div class="logo"></div>
-							<h2>Benjamin Schafer</h2>
-							<p>Cybersecurity Student</a></p>
-						</div>
-					</section>
+                            </div>
+                            <!-- end services -->
+                            <!-- working way -->
 
-				<!-- Wrapper -->
-					<section id="wrapper">
 
-						<!-- One -->
-							<section id="one" class="wrapper spotlight style1">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/headshot.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">About Me</h2>
-										<p>I am a college student majoring in Cybersecurity with an anticipated graduation date of May 2020. Physical and information security is my passion. I am always looking to learn something new to stay up to date in this ever changing field. This website is a way to share the projects and experiences I have with the rest of the Information Security community.</p>
-										<a href="#" class="special">Learn more about me</a>
-									</div>
-								</div>
-							</section>
 
-						<!-- Two -->
-							<section id="two" class="wrapper alt spotlight style2">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/project.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Projects</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">See Projects</a>
-									</div>
-								</div>
-							</section>
+                            <!-- fun facts -->
+                        <!-- end page inner -->
+                    </div>
+                    <!-- end container -->
+                </section>
+                <!-- end about me -->
 
-						<!-- Three -->
-							<section id="three" class="wrapper spotlight style3">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/blog.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Blog</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Read Blog</a>
-									</div>
-								</div>
-							</section>
+                <!-- resume -->
+                <section id="resume" class="section-page animated">
+                    <!-- container -->
+                    <div class="container">
+                        <!-- page inner -->
+                        <div class="section-inner">
+                            <!-- section title -->
+                            <div class="section-title">
+                                <h2>Resume</h2>
+                                <p>A Glance At My Background</p>
+                                <div class="divider"></div>
+                            </div>
+                            <!-- end section title -->
+                            <!-- download resume -->
+                            <!-- end download resume -->
+                            <!-- head title -->
+                            <div class="head-title">
+                                <h3>Education</h3>
+                            </div>
+                            <!-- end head title -->
+                            <!-- education -->
+                            <ul class="timeline-list mb-60">
+                                <li>
+                                    <span>Aug 2017 - May 2020</span>
+                                    <h5>Saint Cloud State University</h5>
+                                    <b><p>Bachelors of Science in Cybersecurity</p></b>
+                                    <p>Cumulative GPA of 3.84</p>
+                                </li>
+                            </ul>
+                            <!-- end education -->
+                            <!-- head title -->
+                            <div class="head-title">
+                                <h3>Experience</h3>
+                            </div>
+                            <!-- end head title -->
+                            <!-- experiences -->
+                            <ul class="timeline-list mb-60">
+                                <li>
+                                    <span>Summer 2019</span>
+                                    <h5>Information Security Intern</h5>
+                                    <p>&bull;Constructed a Sysmon configuration file to log essential system activity data for use in Splunk Enterprise Security</p>
+                                    <p>&bull;Migrated phishing analysis and response configurations from Cofense Triage v1 to v2</p>
+                                    <p>&bull;Implemented new rules and actions to achieve 80% automation in categorizing and responding to phishing threats in Triage</p>
+                                    <p>&bull;Discovered and reported bugs that led to Cofense Triage v2 being discontinued</p>
 
-						<!-- Four -->
-							<section id="four" class="wrapper alt style1">
-								<div class="inner">
-									<h2 class="major">Vitae phasellus</h2>
-									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-									<section class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Sed feugiat lorem</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3 class="major">Nisl placerat</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3 class="major">Ante fermentum</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<h3 class="major">Fusce consequat</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-									</section>
-									<ul class="actions">
-										<li><a href="#" class="button">Browse All</a></li>
-									</ul>
-								</div>
-							</section>
+                                </li>
+                                <li>
+                                    <span>2016-2018</span>
+                                    <h5>IT Consultant</h5>
+                                    <p>&bull;Generated average of $5,000 in monthly sales, helping to achieve #1 franchise location globally by revenue</p>
+                                    <p>&bull;Assessed device damage to provide initial diagnostics for repair</p>
+                                    <p>&bull;Advised customers on mobile and computing devices to improve quality of life</p>
+                                    <p>&bull;Coached customers on proper security practices to avoid ransomware and malware</p>
+                                </li>
+                            </ul>
+                            <!-- end experiences -->
 
-					</section>
+                            <!-- language skills -->
+                            <div class="language-skills">
+                                <!-- head title -->
+                                <div class="head-title">
+                                    <h3>Language Skills</h3>
+                                </div>
+                                <!-- end head title -->
+                                <div class="row">
+                                    <!-- item -->
+                                    <div class="col-lg-3 col-sm-6">
+                                    <div class="lang-item clearfix">
+                                        <div class="python">
+                                        <h6>Python<span>Proficient</span></h6>
+                                          <ul class="lang-rating">
+                                              <li class="active"><i></i></li>
+                                              <li class="active"><i></i></li>
+                                              <li class="active"><i></i></li>
+                                              <li class="active"><i></i></li>
+                                              <li class="active"><i></i></li>
+                                              <li class="active"><i></i></li>
+                                              <li class="active"><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                          </ul>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <!-- end item -->
+                                    <!-- item -->
+                                    <div class="col-lg-3 col-sm-6">
+                                    <div class="lang-item clearfix">
+                                        <div class = "sql">
+                                          <h6>SQL<span>Basic</span></h6>
+                                          <ul class="lang-rating">
+                                              <li class="active"><i></i></li>
+                                              <li class="active"><i></i></li>
+                                              <li class="active"><i></i></li>
+                                              <li class="active"><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                            </ul>
+                                          </div>
+                                    </div>
+                                    </div>
+                                    <!-- end item -->
+                                    <!-- item -->
+                                    <div class="col-lg-3 col-sm-6">
+                                    <div class="lang-item clearfix">
+                                        <div class = "c++">
+                                          <h6>C++<span>Basic</span></h6>
+                                          <ul class="lang-rating">
+                                              <li class="active"><i></i></li>
+                                              <li class="active"><i></i></li>
+                                              <li class="active"><i></i></li>
+                                              <li class="active"><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                            </ul>
+                                          </div>
+                                    </div>
+                                    </div>
+                                    <!-- end item -->
+                                    <!-- item -->
+                                    <div class="col-lg-3 col-sm-6">
+                                    <div class="lang-item clearfix">
+                                        <div class="r">
+                                          <h6>R<span>Minimal</span></h6>
+                                          <ul class="lang-rating">
+                                              <li class="active"><i></i></li>
+                                              <li class="active"><i></i></li>
+                                              <li class="active"><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                              <li><i></i></li>
+                                          </ul>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <br></br>
+                                    <br></br>
+                                    <br></br>
+                                    <br></br>
+                                    <br></br>
+                                    <br></br>
 
-				<!-- Footer -->
-					<section id="footer">
-						<div class="inner">
-							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-							<ul class="contact">
-								<li class="icon solid fa-home">
-									Untitled Inc<br />
-									1234 Somewhere Road Suite #2894<br />
-									Nashville, TN 00000-0000
-								</li>
-								<li class="icon solid fa-phone">(000) 000-0000</li>
-								<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-								<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-								<li class="icon brands fa-github"><a href="#">facebook.com/untitled-tld</a></li>
-								<li class="icon brands fa-linkedin"><a href="#">instagram.com/untitled-tld</a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Ben Schafer All rights reserved.</li><li>Design by: <a href="http://html5up.net">HTML5 UP</a></li><li>Images From: <a href="http://unsplash.com">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
+                                    <!-- end item -->
+                                </div>
+                            </div>
+                            <!-- end language skills -->
+                        </div>
+                        <!-- end page inner -->
+                    </div>
+                    <!-- end container -->
+                </section>
+                <!-- end resume -->
 
-			</div>
+                <!-- portfolio -->
+                <section id="portfolio" class="section-page animated">
+                    <!-- container -->
+                    <div class="container">
+                        <!-- page inner -->
+                        <div class="section-inner">
+                            <!-- section title -->
+                            <div class="section-title">
+                                <h2>Blog</h2>
+                                <p>Articles | CTF Writeups | Projects | Locksport</p>
+                                <div class="divider"></div>
+                            </div>
+                            <!-- end section title -->
+                            <!-- portfolio flters -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <ul id="portfolio-flters">
+                                        <li data-filter="*" class="filter-active filter-click">All</li>
+                                        <li data-filter=".filter-app">Articles</li>
+                                        <li data-filter=".filter-Template">CTF Writeups</li>
+                                        <li data-filter=".filter-web">Projects</li>
+                                        <li data-filter=".filter-web">Locksport</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- end portfolio flters -->
+                            <!-- portfolio container -->
+                            <div class="row portfolio-container mb-30">
+                                <!-- portfolio item -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-app">
+                                    <div class="portfolio-wrap">
+                                        <img src="images/portfolio/01.jpg" class="img-fluid" alt="">
+                                        <div class="portfolio-info">
+                                            <h4><a href="single-portfolio.html">App 1</a></h4>
+                                            <p>App</p>
+                                            <div>
+                                                <a href="https://youtube.com/embed/4xe72U7mXNg" class="link-preview" title="App 1" data-rel="lightcase:gallery" data-lc-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit."><i class="pe-7s-expand1"></i></a>
+                                                <a href="single-portfolio.html" class="link-details" title="More Details"><i class="pe-7s-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end portfolio item -->
+                                <!-- portfolio item -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-web">
+                                    <div class="portfolio-wrap">
+                                        <img src="images/portfolio/09.jpg" class="img-fluid" alt="">
+                                        <div class="portfolio-info">
+                                            <h4><a href="single-portfolio.html">Web 3</a></h4>
+                                            <p>Web</p>
+                                            <div>
+                                                <a href="https://player.vimeo.com/video/358296442" class="link-preview" title="App 2" data-rel="lightcase:gallery" data-lc-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit."><i class="pe-7s-expand1"></i></a>
+                                                <a href="single-portfolio.html" class="link-details" title="More Details"><i class="pe-7s-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end portfolio item -->
+                                <!-- portfolio item -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-app">
+                                    <div class="portfolio-wrap">
+                                        <img src="images/portfolio/02.jpg" class="img-fluid" alt="">
+                                        <div class="portfolio-info">
+                                            <h4><a href="single-portfolio.html">App 2</a></h4>
+                                            <p>App</p>
+                                            <div>
+                                                <a href="images/portfolio/02.jpg" class="link-preview" title="App 2" data-rel="lightcase:gallery" data-lc-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit."><i class="pe-7s-expand1"></i></a>
+                                                <a href="single-portfolio.html" class="link-details" title="More Details"><i class="pe-7s-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end portfolio item -->
+                                <!-- portfolio item -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-Template">
+                                    <div class="portfolio-wrap">
+                                        <img src="images/portfolio/08.jpg" class="img-fluid" alt="">
+                                        <div class="portfolio-info">
+                                            <h4><a href="single-portfolio.html">Template 1</a></h4>
+                                            <p>Template</p>
+                                            <div>
+                                                <a href="images/portfolio/08.jpg" class="link-preview" title="Template 1" data-rel="lightcase:gallery" data-lc-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit."><i class="pe-7s-expand1"></i></a>
+                                                <a href="single-portfolio.html" class="link-details" title="More Details"><i class="pe-7s-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end portfolio item -->
+                                <!-- portfolio item -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-web">
+                                    <div class="portfolio-wrap">
+                                        <img src="images/portfolio/05.jpg" class="img-fluid" alt="">
+                                        <div class="portfolio-info">
+                                            <h4><a href="single-portfolio.html">Web 2</a></h4>
+                                            <p>Web</p>
+                                            <div>
+                                                <a href="images/portfolio/05.jpg" class="link-preview" title="web 2" data-rel="lightcase:gallery" data-lc-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit."><i class="pe-7s-expand1"></i></a>
+                                                <a href="single-portfolio.html" class="link-details" title="More Details"><i class="pe-7s-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end portfolio item -->
+                                <!-- portfolio item -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-app">
+                                    <div class="portfolio-wrap">
+                                        <img src="images/portfolio/03.jpg" class="img-fluid" alt="">
+                                        <div class="portfolio-info">
+                                            <h4><a href="single-portfolio.html">App 3</a></h4>
+                                            <p>App</p>
+                                            <div>
+                                                <a href="images/portfolio/03.jpg" class="link-preview" title="App 3" data-rel="lightcase:gallery" data-lc-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit."><i class="pe-7s-expand1"></i></a>
+                                                <a href="single-portfolio.html" class="link-details" title="More Details"><i class="pe-7s-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end portfolio item -->
+                                <!-- portfolio item -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-Template">
+                                    <div class="portfolio-wrap">
+                                        <img src="images/portfolio/06.jpg" class="img-fluid" alt="">
+                                        <div class="portfolio-info">
+                                            <h4><a href="single-portfolio.html">Template 2</a></h4>
+                                            <p>Template</p>
+                                            <div>
+                                                <a href="images/portfolio/06.jpg" class="link-preview" title="Template 2" data-rel="lightcase:gallery" data-lc-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit."><i class="pe-7s-expand1"></i></a>
+                                                <a href="single-portfolio.html" class="link-details" title="More Details"><i class="pe-7s-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end portfolio item -->
+                                <!-- portfolio item -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-Template">
+                                    <div class="portfolio-wrap">
+                                        <img src="images/portfolio/07.jpg" class="img-fluid" alt="">
+                                        <div class="portfolio-info">
+                                            <h4><a href="single-portfolio.html">Template 3</a></h4>
+                                            <p>Template</p>
+                                            <div>
+                                                <a href="images/portfolio/07.jpg" class="link-preview" title="Template 3" data-rel="lightcase:gallery" data-lc-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit."><i class="pe-7s-expand1"></i></a>
+                                                <a href="single-portfolio.html" class="link-details" title="More Details"><i class="pe-7s-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end portfolio item -->
+                                <!-- portfolio item -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-web">
+                                    <div class="portfolio-wrap">
+                                        <img src="images/portfolio/04.jpg" class="img-fluid" alt="">
+                                        <div class="portfolio-info">
+                                            <h4><a href="single-portfolio.html">Web 1</a></h4>
+                                            <p>Web</p>
+                                            <div>
+                                                <a href="images/portfolio/04.jpg" class="link-preview" title="Web 1" data-rel="lightcase:gallery" data-lc-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit."><i class="pe-7s-expand1"></i></a>
+                                                <a href="single-portfolio.html" class="link-details" title="More Details"><i class="pe-7s-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end portfolio item -->
+                            </div>
+                            <!-- end portfolio container -->
+                            <!-- load more -->
+                            <!-- end load more -->
+                        </div>
+                        <!-- end page inner -->
+                    </div>
+                    <!-- end container -->
+                </section>
+                <!-- end portfolio -->
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 
-	</body>
+                <!-- contact -->
+                <section id="contact" class="section-page animated">
+                    <!-- container -->
+                    <div class="container">
+                        <!-- page inner -->
+                        <div class="section-inner">
+                            <!-- section title -->
+                            <div class="section-title">
+                                <h2>Contact Me</h2>
+                                <p></p>
+                                <div class="divider"></div>
+                            </div>
+                            <!-- end section title -->
+                            <!-- google map -->
+                            <!-- end google map -->
+                                    <!-- contact information -->
+                                    <div class="head-title">
+                                        <h3>Contact Me</h3>
+                                    </div>
+                                    <div>
+                                        <ul>
+                                            <li><img src="css/svg/emailext.svg" style="width:25px;height:25px;"alt=""hspace="15"><span><a href="mailto:benjamin.schafer8@gmail.com">  benjamin.schafer8@gmail.com</a></span></li>
+                                            <li><br></li>
+                                            <li><img src="css/svg/linkedin.svg" style="width:25px;height:25px;"alt=""hspace="15"><span><a href="https://www.linkedin.com/in/ben-schafer-134884168/">  Benjamin Schafer</a></span></li>
+                                            <li><br></li>
+                                            <li><img src="css/svg/medium.svg" style="width:25px;height:25px;"alt=""hspace="15"><span><a href="https://medium.com/@popdogsec">  @popdogsec</a></span></li>
+                                            <li><br></li>
+                                            <li><img src="css/svg/youtube.svg" style="width:25px;height:25px;"alt=""hspace="15"><span><a href="https://www.youtube.com/channel/UCuP8x9QmQhb7MyYSYCfiJYA/?guided_help_flow=5">  popdogsec</a></span></li>
+                                            <li><br></li>
+                                            <li><img src="css/svg/github.svg" style="width:25px;height:25px;"alt=""hspace="15"><span><a href="https://github.com/popdogsec">  popdogsec</a></span></li>
+
+                                        </ul>
+                                    </div>
+                                    <!-- end contact information -->
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+
+
+
+                            </div>
+                        </div>
+                        <!-- end page inner -->
+                    </div>
+                    <!-- end container -->
+                </section>
+                <!-- end contact -->
+
+            </div>
+            <!-- end section pages -->
+        </div>
+        <!-- end main content pages -->
+    </div>
+    <!-- end wrapper page -->
+
+
+    <!-- COMMON SCRIPTS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- portfolio filter -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- owl soursel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- typed text -->
+    <script src="js/typed.min.js"></script>
+    <!-- images lightcase -->
+    <script src="js/lightcase.min.js"></script>
+    <!-- contact form -->
+    <script src="js/contact.form.js"></script>
+    <!-- main script -->
+    <script src="js/custom.js"></script>
+
+</body>
 </html>
